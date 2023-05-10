@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Website Tailwind CSS</title>
+    <!-- css -->
+    <link rel="stylesheet" href="output.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon -->
+    <link rel="shortcut icon" href="img/logo-react.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="bg-bg-header object-cover bg-center ">
+        <!-- <nav class="bg-gradient-to-r from-gray-50 to-neutral-100 shadow-lg shadow-indigo-500/50 z-30"> -->
+        <div class="w-container m-container">
+            <div class="flex justify-between items-center py-4 ">
+                <div class="flex cursor-pointer">
+                    <a class="text-6xl bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent hover:text-blue-700 hover:ease-in-out hover:duration-300"
+                        href="#"><i class='bx bxl-react'></i></a>
+                    <a href="#"></a><span
+                        class="mt-2.5 ml-1 text-3xl bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent font-Bruno hover:text-blue-700 ease-in-out duration-300">react</span>
+                </div>
+                <div class="flex">
+                    <a class="mr-5 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent text-lg font-Bruno hover:text-white ease-in-out duration-300"
+                        href="#home">home</a>
+                    <a class="mr-5 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent text-lg font-Bruno hover:text-white ease-in-out duration-300"
+                        href="#about">about</a>
+                    <a class="mr-5 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent text-lg font-Bruno hover:text-white ease-in-out duration-300"
+                        href="#shop">shop</a>
+                    <a class="mr-5 bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent text-lg font-Bruno hover:text-white ease-in-out duration-300"
+                        href="#contact">contact</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <!-- header ------------------------------------------------------------------------------------------------------------------>
+        <header class=" overflow-hidden h-header p-header z-20 relative object-cover bg-center">
+            <div class="w-container m-container">
+                <div class="flex justify-between w-container">
+                    <div class="ml-7">
+                        <img class="m-snow h-snow object-cover" src="img/snow-react.png" alt="">
+                        <h1
+                            class="text-center uppercase text-header font-poppin bg-gradient-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent font-bold">
+                            React <br></h1>
+                        <h1
+                            class="text-center uppercase text-header font-poppin bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent font-bold">
+                            The library for web <br>
+                            and native user interfaces</h1>
+                        <p
+                            class="text-center font-Bruno text-sm mt-4 bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent">
+                            from soli to soul: How cultivating a
+                            garden <br>
+                            mirrors our faith in the future and nurtires the human spirit</p>
+                    </div>
+                    <div class="m-one bg-gradient-to-r from-cyan-400 via-violet-500 to-fuchsia-400 rounded-full p-16px">
+                        <img class="object-cover h-400 rounded-full w-400  z-40" src="/img/react2.jpg" alt="">
+                        <img class="absolute top-header right-28 z-50" src="img/react-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- header ------------------------------------------------------------------------------------------------------------------>
+
+    <!-- created ----------------------------------------------------------------------------------------------------------------->
+<!-- created ----------------------------------------------------------------------------------------------------------------->
+
+    <!-- Shop ----------------------------------------------------------------------------------------------------------------->
+    <section class="bg-gradient-to-r from-slate-900 to-slate-700">
+        <div class="w-container m-container">
+            <!-- store -->
+            <div class="overflow-hidden">
+                <h1
+                    class="flex justify-center text-4xl mb-16 font-poppin uppercase mt-16 font-bold bg-gradient-to-r from-blue-500 to-fuchsia-500 bg-clip-text text-transparent">
+                    - Store -</h1>
+                <p
+                    class=" flex justify-center text-2xl font-Bruno mb-6 bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
+                    - select order you want -</p>
+            </div>
+            <!-- grid -->
+            <div class="grid grid-cols-3">
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+                <!-- item -->
+                <div
+                    class="item1 relative object-cover hover:scale-110 transition-all hover:ease-in-out hover:duration-300 hover:shadow-indigo-500/40">
+                    <img class="rounded-md w-300px h-400px" src="img/coffee.jpg" alt="">
+                    <div
+                        class="flex justify-between absolute bottom-10 left-0 w-200px h-120px bg-gradient-to-r from-violet-600 to-indigo-600 p-2 rounded-custom">
+                        <div class="font-poppin text text-white">
+                            <h1>Black Coffee</h1>
+                        </div>
+                        <div class="relative space font-poppin text-white">
+                            <p>$20</p>
+                        </div>
+                    </div>
+                    <p class="relative bottom-20 text-sm text-white font-bold pl-1">Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.</p>
+                    <a class="absolute font-Bruno bottom-12 text-white p-order hover:underline underline-offset-3 ease-in-out hover:duration-150"
+                        href="#">order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shop ----------------------------------------------------------------------------------------------------------------->
+    <section class="bg-slate-600 p-created">
+        <div class="w-container m-container">
+            <div class="flex justify-center">
+                <p
+                    class="bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent font-Bruno font-bold text-created m-created">
+                    - CREATED BY -</p>
+            </div>
+            <!-- grid folder -->
+            <div class="grid grid-cols-4 w-container m-container">
+                <!-- grid item -->
+                <div class="flex justify-center">
+                    <img class="w-html h-html object-cover" src="img/html-logo.png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img class="w-html h-html object-cover" src="img/css-logo.png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img class="w-html h-html object-cover" src="img/tailwind-logo.png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img class="w-html h-html object-cover" src="img/nodejs-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact ----------------------------------------------------------------------------------------------------------------->
+    <footer class="">
+        <div class="foot-container">
+            <div class="bg-violet-600">
+                <div class="flex justify-between p-16px w-container m-container">
+                    <div class="sec-l text-footer1">
+                        <p class="font-poppin text-white">Get connected with us on socials network</p>
+                    </div>
+                    <div class="sec-r text-white mr-8">
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-facebook'></i></a>
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-twitter'></i></a>
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-google'></i></a>
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-instagram'></i></a>
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        <a class="p-16px rounded-100% text-footer1 transition-all hover:text-violet-400 hover:ease-in-out hover:duration-300"
+                            href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer2-bg bg-gray-700 p-4">
+                <section class="sec1 w-container m-container">
+                    <div class="sec2">
+                        <div class="grid grid-cols-4">
+                            <!-- item -->
+                            <div class="item p-4">
+                                <h1 class="text-white font-poppin text-xl mb-3 font-bold uppercase"><span
+                                        class="">company</span> name</h1>
+                                <p class="text-white font-poppin leading-normal text-sm">Here you can use rows and
+                                    colums<br>
+                                    organize your footer content. Lorem <br>
+                                    ipsum dolor sit amet consectetur <br>
+                                    adipisicing elit.</p>
+                            </div>
+                            <!-- item -->
+                            <div class="item p-4">
+                                <h1 class="text-white font-poppin text-xl mb-3 font-bold uppercase"><span
+                                        class="">produc</span>ts</h1>
+                                <div class="flex flex-col">
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">MDBootstrap</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">MDWordPress</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">BrandFlow</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">Boostrap
+                                        Angular</a>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <div class="item p-4">
+                                <h1 class="text-white font-poppin text-xl mb-3 font-bold uppercase"><span
+                                        class="">useful</span> links</h1>
+                                <div class="flex flex-col">
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">Your Account</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">Become an
+                                        Affiliate</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">Shipping Rates</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm">Help</a>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <div class="item p-4">
+                                <h1 class="text-white font-poppin text-xl mb-3 font-bold uppercase"><span
+                                        class="">contac</span>t</h1>
+                                <div class="flex flex-col">
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm"><i
+                                            class='text-base mr-2 bx bx-building-house'></i>New York,NY 10012,US</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm"><i
+                                            class='text-base mr-2 bx bx-envelope'></i>info@example.com</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm"><i
+                                            class='text-base mr-2 bx bx-phone-call'></i>01 234 567 88</a>
+                                    <a href="#" class="text-white font-poppin leading-loose text-sm"><i
+                                            class='text-base mr-2 bx bxl-discord-alt'></i>Discord#0000</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <section class="last-footer flex justify-center p-4 bg-gray-800">
+            <p class="text-white text-xl">&copy; 2023 Copyright: Google Search Design</p>
+        </section>
+
+
+    </footer>
+    <!-- Contact ----------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>
